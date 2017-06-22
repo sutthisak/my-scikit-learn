@@ -86,6 +86,19 @@ The following NEW packages will be INSTALLED:
 Proceed ([y]/n)? y
 
 six-1.10.0-py3 100% |#######################################################################################| Time: 0:00:00 554.67 kB/s
+(my-scikit-learn) my-scikit-learn$ conda install -c menpo opencv3
+Fetching package metadata ...........
+Solving package specifications: .
+
+Package plan for installation in environment /path/to/anaconda3/envs/my-scikit-learn:
+
+The following NEW packages will be INSTALLED:
+
+    opencv3: 3.1.0-py36_0 menpo
+
+Proceed ([y]/n)? y
+
+opencv3-3.1.0- 100% |#######################################################################################| Time: 0:00:27   1.44 MB/s
 (my-scikit-learn) my-scikit-learn$ python
 Python 3.6.1 |Continuum Analytics, Inc.| (default, May 11 2017, 13:09:58) 
 [GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux
