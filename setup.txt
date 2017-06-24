@@ -86,6 +86,31 @@ The following NEW packages will be INSTALLED:
 Proceed ([y]/n)? y
 
 six-1.10.0-py3 100% |#######################################################################################| Time: 0:00:00 554.67 kB/s
+(my-scikit-learn) my-scikit-learn$ conda install scikit-image
+Fetching package metadata .........
+Solving package specifications: .
+
+Package plan for installation in environment /path/to/anaconda3/envs/my-scikit-learn:
+
+The following NEW packages will be INSTALLED:
+
+    jbig:         2.1-0             
+    libtiff:      4.0.6-3           
+    networkx:     1.11-py36_0       
+    olefile:      0.44-py36_0       
+    pillow:       4.1.1-py36_0      
+    pywavelets:   0.5.2-np113py36_0 
+    scikit-image: 0.13.0-np113py36_0
+
+Proceed ([y]/n)? y
+
+jbig-2.1-0.tar 100% |#######################################################################################| Time: 0:00:00  55.66 kB/s
+libtiff-4.0.6- 100% |#######################################################################################| Time: 0:00:02 671.12 kB/s
+olefile-0.44-p 100% |#######################################################################################| Time: 0:00:00  92.46 kB/s
+networkx-1.11- 100% |#######################################################################################| Time: 0:00:02 437.02 kB/s
+pillow-4.1.1-p 100% |#######################################################################################| Time: 0:00:02 402.34 kB/s
+pywavelets-0.5 100% |#######################################################################################| Time: 0:00:04   1.20 MB/s
+scikit-image-0 100% |#######################################################################################| Time: 0:00:33   1.01 MB/s
 (my-scikit-learn) my-scikit-learn$ conda install -c menpo opencv3
 Fetching package metadata ...........
 Solving package specifications: .
@@ -99,6 +124,19 @@ The following NEW packages will be INSTALLED:
 Proceed ([y]/n)? y
 
 opencv3-3.1.0- 100% |#######################################################################################| Time: 0:00:27   1.44 MB/s
+(my-scikit-learn) my-scikit-learn$ conda install -c conda-forge mahotas
+Fetching package metadata ...........
+Solving package specifications: .
+
+Package plan for installation in environment /path/to/anaconda3/envs/my-scikit-learn:
+
+The following NEW packages will be INSTALLED:
+
+    mahotas: 1.4.3-np113py36_1 conda-forge
+
+Proceed ([y]/n)? y
+
+mahotas-1.4.3- 100% |#######################################################################################| Time: 0:00:06 627.24 kB/s
 (my-scikit-learn) my-scikit-learn$ conda install --name my-scikit-learn jupyter
 Fetching package metadata .........
 Solving package specifications: .
