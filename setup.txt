@@ -137,6 +137,28 @@ The following NEW packages will be INSTALLED:
 Proceed ([y]/n)? y
 
 mahotas-1.4.3- 100% |#######################################################################################| Time: 0:00:06 627.24 kB/s
+(my-scikit-learn) my-scikit-learn$ conda install -c anaconda quandl
+Fetching package metadata ...........
+Solving package specifications: .
+
+Package plan for installation in environment /path/to/anaconda3/envs/my-scikit-learn:
+
+The following NEW packages will be INSTALLED:
+
+    inflection:     0.3.1-py36_0       anaconda
+    more-itertools: 3.2.0-py36_0       anaconda
+    pandas:         0.20.2-np113py36_0 anaconda
+    quandl:         3.1.0-py36_0       anaconda
+    requests:       2.14.2-py36_0      anaconda
+
+Proceed ([y]/n)? y
+
+inflection-0.3 100% |#######################################################################################| Time: 0:00:00  41.32 kB/s
+requests-2.14. 100% |#######################################################################################| Time: 0:00:11  62.59 kB/s
+more-itertools 100% |#######################################################################################| Time: 0:00:00  77.43 kB/s
+pandas-0.20.2- 100% |#######################################################################################| Time: 0:00:17   1.29 MB/s
+quandl-3.1.0-p 100% |#######################################################################################| Time: 0:00:00  33.17 MB/s
+(my-scikit-learn) my-scikit-learn$
 (my-scikit-learn) my-scikit-learn$ conda install --name my-scikit-learn jupyter
 Fetching package metadata .........
 Solving package specifications: .
